@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head id = "cabecalho">
+<meta charset = "UTF-8"/>
+<title> pag1 site pessoal</title>
+<link rel="stylesheet" type="text/css" href = "css/estilo.css">
+<h3>Ronaldo Alves de Souza</h3>
+
+
+
+</head>
+<body>
+<div id ="data">data </div>
+
+<div id = "interatividade">
+<b>
+<p> Seja  bem  vindo  !!
+    é um prazer ter você aqui. 
+</p>
+</b>
+</div>
+
+<script src="javascript/fc.js">
+</script>
+ 
+
+<div id = "fotoRon">
+<img src = "imagensprincipais/rnld.png"/>
+</div>
+<!-- Apresentação do site e seus objetivos!-->
+<div id = "apresentacao">
+<h1> Analista e Desenvolvedor de Sistemas jrº </h1>
+</div>
+
+<div id = "proj1">                                                             <!-- parte 1 de  imagens e figuras do corpo da pagina  < * >!-->
+ <figure class = "ft1">                                                        <!-- Figure representa a figura< #*>!-->
+	<img src = " imagensprincipais/projetos.jpg"/>                             <!-- Figcaption controla o texto <#**>!-->
+	<figcaption class = "txt1">
+	<h2><span style = "text-decoration:underline"> Projetos de tecnologia: <span></h2>
+	<p> Apertando o botão vc terá a oportunidade de conhecer o  portfolio do desenvolvedor</br></p>
+	<nav class = "proj"> <li> <a href "#" > projetos </a> </li></nav>
+	<figcaption>
+	</figure>
+	</div>
+
+
+
+   <div id = "curr2">                                                                <!-- parte 2 de  imagens e figuras do corpo da pagina <  ** >!-->
+ <figure class = "ft2">                                           <!-- Figure representa a figura< #*>!-->
+	<img src = "imagensprincipais/curricullum.jpg"/>   <!-- Figcaption controla o texto <#**>!-->
+	<figcaption class = "txt2">
+	<h2><span style = "text-decoration:underline"> Curricullum & Videos:<span></h2>
+	<p>Apertando no botão você terá a oportunidade de conhecer o curricullum e os videos de apresentação
+	do desenvolvedor</p>
+	<nav class = "curric"> <li> <a href "#" >curriculum </a> </li></nav>
+	<nav class = "vd"> <li> <a href "#" > videos </a> </li></nav>
+	</figcaption>
+ </figure>
+ 	</div>
+
+<div id = "ferr3">                                               <!-- parte 3 de  imagens e figuras do corpo da pagina  < *** >!-->
+<figure class = "ht">                                           <!-- Figure representa a figura< #*>!-->
+<li> <a> <img src = "habil/html.png"/ width="50"><b><p>HTML </p> </b></a></li>
+</figure>
+<figure class = "css">
+<li> <a><img src = "habil/css.png"/ width="50"><b> <p>CSS </p></b>      </a> </li>
+</figure>
+<figure class = "js">
+<li> <a><img src = "habil/javascript.png"/ width="50"><b><p>JAVASCRIPT </p></b> </a> </li>
+</figure>
+<figure class = "git">
+<li> <a><img src = "habil/github.png"/ width="50"><b><p>GITHUB </p> </b>    </a> </li>
+</figure>
+<figure class = "ps">
+<li> <a><img src = "habil/photoshop.png"/ width="50"><b><p>PHOTOSHOP </p></b>  </a> </li>
+</figure>
+<figure class = "stuml">
+<li> <a><img src = "habil/staruml.png"/ width="50"><b><p>STARUML </p> </b>   </a> </li>
+</figure>
+<figure class = "vtbx">
+<li> <a><img src = "habil/virtubox.png"/ width="50"><b><b><p>VIRTUAL<br/>BOX </p></b>   </a> </li>
+</figure>
+<figure class = "vscd">
+<li> <a><img src = "habil/vscode.png"/ width="50"><b> <p>VS-CODE </p> </b>   </a> </li>
+</figure>
+<figure class = "wdws">
+<li> <a><img src = "habil/windows.png"/ width="50"><b> <p>WINDOWS </p></b>   </a> </li>
+<figcaption class = "txt3">
+<h2><span style = "text-decoration:underline"> Conhecimentos em Ferramentas :<span></h2>
+<div id = "ferramentas"> </div>
+</figcaption>
+ </figure>
+ </div>
+ <nav class = "menu">
+
+ <li> <a href "#" > <img src = "icones/linkedin.PNG" > </a> </li>
+ <li> <a href "#" > <img src = "icones/whatsapp.PNG"> </a></li>  <!-- # onde ira o links!-->
+  <li><a href "#" > <img src = "icones/facebook.PNG"></a> </li>
+  <li><a href "#" > <img src = "icones/instagram.PNG"> </a> </li>
+  <li><a href "#" > <img src = "icones/github.PNG"> </a> </li>
+  <li><a href "#" > <img src = "icones/e-mail.PNG" width =30> </a> </li>
+  <li><a href "#" > <img src = "icones/twitter.PNG" width =100>  </a> </li>
+ <p>Click nos icones para visitar as redes sociais do desenvolvedor</p>
+
+ </nav>
+
+
+   <div id = "redes4">                                                                 <!-- parte 4 de  imagens e figuras do corpo da pagina< **** >!-->
+  <figure class = "ft4">                                           <!-- Figure representa a figura< #*>!-->
+  <figcaption>                                                      <!-- Figcaption controla o texto <#**>!-->
+	<img src = "imagensprincipais/ti.png" width="250"/>
+	<figcaption class = "txt4">
+	<h2><span style = "text-decoration:underline"> Site Pessoal :<span></h2>
+	<p><b>Este site tem por objetivo demonstrar as habilidades profissionais do desenvolvedor de sistemas em suas experiencias ao longo da carreira.</br>
+	 clicando nos botões voce sera direcionado para as areas abaixo descritas
+	clicando nas imagens no menu voce podera navegar pelas redes sociais do desenvolvedor:</p>
+
+	     <li> Projetos desenvolvidos ao longo da carreira</li>
+		 <li> Curricullum para avaliação dos recrutadores</li>
+		 <li> Video com apresentação pessoal e habilidades desenvolvidas em campo</li>
+		 <li> Ferramentas de software do conhecimento do desenvolvedor</li>
+		 <li> Em redes sociais voce podera ter uma breve noção do perfil do desenvolvedor</li>
+		 </b>
+	</figcaption>
+ </figure>
+</div>
+
+</body>
+</html>

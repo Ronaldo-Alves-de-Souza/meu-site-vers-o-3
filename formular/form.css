@@ -1,0 +1,39 @@
+@charset"UTF-8"
+
+
+
+
+
+h1{
+	
+	color:blue;
+	margin-left:850px;
+}
+
+
+h1{
+	
+	color:white;
+	margin-left:650px;
+	margin-top:20px:
+}
+
+
+
+ form{
+	position:absolute;
+	background-color:#D7DADA;
+	width:850px;
+	height:700px;
+text-align:center;
+margin-top:20px;
+margin-left:500px;
+color:blue;
+padding:50px;	
+font-size:22px;
+}
+body{
+	
+	background-color:#050132;
+	
+}

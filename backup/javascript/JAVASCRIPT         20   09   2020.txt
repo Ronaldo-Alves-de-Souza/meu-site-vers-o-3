@@ -1,0 +1,28 @@
+var dt=new Date();
+var diasem=dt.getDay();
+var dia=dt.getDate();
+var mes=dt.getMonth();
+var ano=dt.getFullYear();
+
+var horas=dt.getHours();
+var minutos=dt.getMinutes();
+var segundos=dt.getSeconds();
+
+var meses=new Array("Janeiro","Fevereiro","Marco","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+var semanas=new Array("Domingo","Segunda-Feira","Terça-Feira","Quarta-Feira","Quinta-Feira","Sexta-Feira","Sabado");
+
+
+var d = document.getElementById('data').innerHTML = semanas[diasem] + "-" + dia + "/" + mes + "/" + ano+ "<br/> " +horas + ":" + minutos + ":" + segundos;
+
+function typeWriter(elemento)  {
+	const textoArray = elemento.innerHTML.split('');
+	elemento.innerHTML = "";
+	textoArray.forEach((letra,i)=>{
+	setTimeout(function(){
+		elemento.innerHTML += letra;
+	},180 * i)
+	});
+}
+
+const interat = document.querySelector('p');
+typeWriter(interat);
